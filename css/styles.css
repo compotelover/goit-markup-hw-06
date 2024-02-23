@@ -25,6 +25,7 @@ a {
 img {
     display: block;
     width: 100%;
+    height: auto;
 }
 
 p {
@@ -724,6 +725,11 @@ button {
     .foot-display-container {
         flex-direction: row;
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .foot-display-container {
         gap: 0;
     }
 }
@@ -736,7 +742,6 @@ button {
 @media screen and (min-width: 768px) {
     .foot-container-fst {
         text-align: left;
-        margin-right: 24px;
     }
 }
 
